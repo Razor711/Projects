@@ -1,0 +1,61 @@
+﻿* {
+  box-sizing: border-box;
+}
+
+div {
+  padding: 0;
+  margin: 0;
+  font-size: 36px;
+}
+
+.calc-body {
+  padding: 0;
+  position: relative;
+  height: 500px;
+  width: 80%;
+  border: 2px ridge #555;
+  border-radius: 10px;
+  border-width: 2px 10px 10px 2px;
+  background-color: #BBB;
+  font-family: "Tahoma", sans-serif;
+}
+
+.calc-face {
+  position: absolute;
+  left: 10%;
+  top: 50px;
+  height: 80%;
+  width: 80%;
+  border: 1px dotted black;
+}
+
+.calc-display {
+  margin: 30px auto;
+  height: 80px;
+  width: 75%;
+  border: 1px solid black;
+  font-size: 2em;
+  letter-spacing: 0.1em;
+  text-align: right;
+}
+
+.calc-keypad {
+  height: 220px;
+  width: 75%;
+  margin: 0 auto;
+  border: 1px solid green;
+}
+
+.calc-keypad button {
+  padding: 4px;
+  font-size: 1.6em;
+  width: 66px;
+  margin: 2px;
+  display: block;
+  float: left;
+  
+}
+
+button.clear{
+  width: 144px;
+}
